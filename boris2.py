@@ -5,7 +5,7 @@ def ebatnaxui(a, b = ''):
             b += c + ''
         else:
             b += element + ' '
-    return b
+    return b[:-1]
             
 
 a = input()
